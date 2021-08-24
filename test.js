@@ -93,4 +93,60 @@ const minNum = function (a,b) {
 
 // console.log(minNum(1,-10));
 
+function isEven(a){
+    if (a === 0) {
+        return true;
+    }
+    else if (a === 1){
+        return false;
+    }
+    else {
+        if (a % 2 === 0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}
 
+// console.log(isEven(-1));
+
+function countBs(string){
+    string = String(string);
+    let counter = 0;
+    let position = 0;
+
+    while (position < string.length) {
+        if (string[position] === "B") {
+            counter++;
+            position++;
+        }
+        else {
+            position++;
+        }
+    }
+    return counter;
+}
+
+// console.log(countBs("BBB"));
+
+function countChar(string, check){
+    string = String(string);
+    check = String(check);
+    let position = 0;
+    let counter = 0;
+
+    while (position < string.length) {
+        if (string[position] === check) {
+            counter++;
+            position++;
+        }
+        else {
+            position++;
+        }
+    }
+    return counter;
+}
+
+console.log(countChar("vuvhhunvwtypownvtyupyntwpeoutvnputyeriputypiutypierutynvpurtynpurevntpyurenvytrpnvthuhuv", "u"));

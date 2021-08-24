@@ -82,3 +82,15 @@ function numPower(base, exponent){
 //numPower(2,9);
 
 
+const minNum = function (a,b) {
+    if (a < b){
+        return a;
+    }
+    else {
+        return b;
+    }
+}
+
+// console.log(minNum(1,-10));
+
+

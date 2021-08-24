@@ -149,4 +149,4 @@ function countChar(string, check){
     return counter;
 }
 
-console.log(countChar("vuvhhunvwtypownvtyupyntwpeoutvnputyeriputypiutypierutynvpurtynpurevntpyurenvytrpnvthuhuv", "u"));
+// console.log(countChar("alex charisis", "i"));

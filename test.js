@@ -329,5 +329,7 @@ function testEvents(entriez){
     return eventList;
 }
 
+
+
 testEvents(testArray);
 console.log(eventList);
